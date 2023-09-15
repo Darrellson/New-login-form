@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link rel="icon" href="logo.PNG">
+    <title>Document</title>
+</head>
+<body>
+    <div class="conteiner">
+    <div class="form">
+        <form action="">
+            <h1>LOGIN</h1>
+            <div class="input-box">
+                <input type="text" placeholder="User" required>
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="Password" required>
+                <img src="hide-regular-24.png" onclick="pass()" class="pass-icon" id="pass-icon">
+            </div>
+            <div class="remember-forgot">
+                <label><input type="checkbox">Remember me</label>
+                <a href="#">Forgot password?</a>
+            </div>
+    
+            <button type="submit" class="btn">SIGN IN</button>
+            <div class="social-login">
+                <p>Or sign in with</p>
+                <a href="#"><box-icon type='logo' name='google'></box-icon></a>
+              <a href="#"><box-icon name='facebook-circle' type='logo' ></box-icon></a>
+               <a href="#"><box-icon name='apple' type='logo' ></box-icon></a>
+            <a href="#"><box-icon name='twitter' type='logo' ></box-icon></a>
+                </div>
+            <div class="register-link">
+                <p>Don't have an account? <a href="#"><b>SIGN UP</b></a></p>
+            </div>
+        </form>
+    </div>
+    <script>
+        const showPassword = document.querySelector
+        ("#show-password");
+        const passwordField = document.querySelector
+        ("#password")
+
+        showPassword.addEventListener("click", function(){
+            this.classList.toggle("fa-eye-slash");
+            const type = passwordField.getAttribute("type")
+            === "password" ? "text" : "password";
+            passwordField.setAttribute("type", type)
+        })  
+    </script>
+    
+    
+</body>
+</html>

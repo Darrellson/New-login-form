@@ -1,0 +1,103 @@
+.conteiner{
+    display: flex;
+    position: absolute;
+    box-sizing: border-box;
+    top: 10%;
+    left: 25%;
+    width: 50%; 
+    height: 67%;
+    background: url(picture.PNG) no-repeat;
+    background-position:left;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);   
+}
+.conteiner .form{
+    position: absolute;
+    top: 0;
+    right: 15%;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #8090c4;
+}
+.social-login a {
+    font-size: 22px;
+    margin-right: 20px;
+}
+.conteiner .form h1 {
+    font-size: 32px;
+     color: #8090c4;
+     position: absolute;
+     bottom: 80%;
+}
+.conteiner .input-box {
+    width: 340px;
+    height: 50px;
+    color: #8090c4;
+}
+.input-box input {
+    width: 100%;
+    height: 80%;
+    border-radius: 10px;
+    border: 1px solid #8090c4;
+    color:#8090c4 ;  
+}
+.pass-icon {
+    position: absolute;
+    right: -7%;
+    top: 50%;
+    cursor: pointer;
+}
+.input-box input ::placeholder{
+    margin-right: 10%;
+    color: #8090c4;
+}
+ .conteiner .remember-forgot a {
+    font-size: 14.5px;
+    font-weight: 500;
+    margin: -15px 0 15px;
+    display: flex;
+    text-decoration: none;
+    position: absolute;
+    right: -12%;  
+    top: 59%;
+    color: #8090c4;
+}
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+.remember-forgot label input {
+    accent-color: white;
+    margin-right: 3px;
+}
+.btn{
+    position: absolute;
+    top: 61%;
+    right: 1;
+    width: 120%;
+    height: 45px;
+    background: #8090c4;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+.social-login {
+    text-align: center;
+    position: absolute;
+    top: 70%;
+    right: 20%;
+}
+.register-link {
+    position: absolute;
+    right: 20%;
+    bottom: 2%;
+}
+.register-link p a {
+    text-decoration: none;
+    color: #8090c4;
+}
